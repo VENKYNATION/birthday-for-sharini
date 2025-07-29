@@ -5,7 +5,7 @@ window.addEventListener('load', () => {
     icon: 'question',
     showCancelButton: true,
     confirmButtonText: 'Yes!',
-    cancelButtonText: 'Yes Yes'
+    cancelButtonText: 'Not now 😅'
   }).then((result) => {
     if (result.isConfirmed) {
       Swal.fire({
@@ -18,7 +18,8 @@ window.addEventListener('load', () => {
         cancelButtonText: 'No',
       }).then((musicChoice) => {
         if (musicChoice.isConfirmed) {
-          document.querySelector('.song').play();
+          const song = document.querySelector('.song');
+          if (song) song.play();
         }
         animationTimeline();
       });
@@ -27,5 +28,3 @@ window.addEventListener('load', () => {
     }
   });
 });
-
-// (Keep your full animationTimeline() function here)
