@@ -5,7 +5,7 @@ window.addEventListener('load', () => {
     icon: 'question',
     showCancelButton: true,
     confirmButtonText: 'Yes!',
-    cancelButtonText: 'Not now 😅'
+    cancelButtonText: 'Yes Yes'
   }).then((result) => {
     if (result.isConfirmed) {
       Swal.fire({
