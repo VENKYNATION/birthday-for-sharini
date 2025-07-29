@@ -1,6 +1,17 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
-    Swal.fire({
+  // Step 1: Ask if ready for surprise
+  Swal.fire({
+    title: 'Hi Sharini! 🎂',
+    text: 'Are you ready for a little surprise?',
+    icon: 'question',
+    showCancelButton: true,
+    confirmButtonText: 'Yes!',
+    cancelButtonText: 'Not now 😅'
+  }).then((result) => {
+    if (result.isConfirmed) {
+      // Step 2: Ask about music
+      Swal.fire({
         title: 'Do you want to play music in the background?',
         icon: 'warning',
         showCancelButton: true,
@@ -8,15 +19,18 @@ window.addEventListener('load', () => {
         cancelButtonColor: '#d33',
         confirmButtonText: 'Yes',
         cancelButtonText: 'No',
-    }).then((result) => {
-        if (result.isConfirmed) {
-            document.querySelector('.song').play();
-            animationTimeline();
-        } else {
-            animationTimeline();
+      }).then((musicChoice) => {
+        if (musicChoice.isConfirmed) {
+          document.querySelector('.song').play();
         }
-    });
+        animationTimeline(); // start everything after decision
+      });
+    } else {
+      Swal.fire('Okay!', 'Come back when you’re ready ❤️', 'info');
+    }
+  });
 });
+
 
 
 // animation timeline
