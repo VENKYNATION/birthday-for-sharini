@@ -1,39 +1,30 @@
-## 🎉 Birthday Greeting Webpage 
+# 🎂 Happy Birthday, Sharini 🎉
 
-[Demo](https://fajarghifar.github.io/happybirthday/)
+A beautifully animated birthday website made with love and a little code magic.
 
-## 🚀 How to Use
+This project was customized by **Venkatesh** as a birthday surprise for **Sharini**, featuring:
+- 🎈 Floating balloons
+- 💬 Personalized messages
+- 🎵 Background music
+- 🖼️ Custom image and design
 
-1.  **Clone Repository**
+---
 
-    ```bash
-    # Clone this repository or download it
-    $ git clone https://github.com/fajarghifar/happybirthday
+## 📌 Live Demo
 
-    # Go into the repository
-    $ cd happybirthday
+🔗 [Click here to view the live site](https://VENKYNATION.github.io/birthday-for-sharini/)
 
-    # Open it with your text editor
-    $ code .
-    ```
+---
 
-2. **Open with Live Server**
+## 🧡 Credits
 
-    Your site is now running!
+This project is based on the open-source [**HappyBirthday**](https://github.com/fajarghifar/happybirthday) template  
+by [**@fajarghifar**](https://github.com/fajarghifar), licensed under the [MIT License](https://github.com/fajarghifar/happybirthday/blob/main/LICENSE).
 
-3. **Deployment**
+> Modified and customized with 💖 by [**Venkatesh**](https://github.com/yourusername)
 
-    To make your site online, you can enable GitHub Pages for the repository (Settings -> Pages). Alternatively, you can use [Netlify](https://www.netlify.com/).
+---
 
-## 📝 Contributing
+## 📂 Project Structure
 
-If you have any ideas to make it more interesting, please submit a pull request or create an issue for a feature request.
 
-## 🤝 License
-
-### [MIT](LICENSE)
-
-> Github [@fajarghifar](https://github.com/fajarghifar) &nbsp;&middot;&nbsp;
-> Youtube [@fajarghifar](https://www.youtube.com/@fajarghifar/) &nbsp;&middot;&nbsp;
-> Instagram [@fajarghifar](https://instagram.com/fajarghifar) &nbsp;&middot;&nbsp;
-> Linkedin [@fajarghifar](https://www.linkedin.com/in/fajarghifar/)
